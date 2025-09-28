@@ -1,0 +1,165 @@
+# ===================================
+# CLEGORA AI LEGAL ASSISTANT
+# ===================================
+
+# Environment Variables & Secrets
+.env*
+!.env.example
+
+# API Keys & Authentication
+*.key
+*.pem
+*-key.json
+*-adminsdk-*.json
+firebase-adminsdk-*.json
+clegora-firebase-adminsdk-*.json
+
+# ===================================
+# DEPENDENCIES & BUILD
+# ===================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+*.tgz
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# ===================================
+# DEVELOPMENT TOOLS
+# ===================================
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing & Coverage
+coverage/
+*.lcov
+.nyc_output
+.pytest_cache/
+
+# Linting & Formatting
+.eslintcache
+
+# ===================================
+# FRAMEWORKS & TOOLS
+# ===================================
+
+# React/Next.js
+.next/
+.cache/
+.parcel-cache/
+
+# Other Frameworks
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+
+# ===================================
+# DATABASES & STORAGE
+# ===================================
+
+# Vector Database
+chroma_db/
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# DynamoDB
+.dynamodb/
+
+# ===================================
+# SYSTEM & TEMPORARY
+# ===================================
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime
+.node_repl_history
+
+# ===================================
+# PYTHON SPECIFIC
+# ===================================
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python Version Management
+.python-version
+
+# Task Runners
+celerybeat-schedule
+
+# Documentation
+/site/
+
+# Type Checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Scientific Computing
+*.sage.py
+
+# IDE Projects
+.spyderproject/
+.spyproject/
+.ropeproject/
